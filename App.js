@@ -12,6 +12,7 @@ const dataRouter = require("./Routes/data")
 
 app.use("/api",dataRouter)
 
-app.listen(process.env.PORT||5000, ()=>{
+app.listen(process.env.PORT||8080, ()=>{
     console.log("server running")
 })
+
