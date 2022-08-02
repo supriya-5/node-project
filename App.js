@@ -13,7 +13,7 @@ const cors = require('cors')
 app.use(cors())
 app.use("/api",dataRouter)
 
-app.listen(process.env.PORT||8080, ()=>{
+app.listen(process.env.PORT||8080, function(){
     console.log("server running")
 })
 
